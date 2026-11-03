@@ -1,0 +1,47 @@
+{
+  "decoding": {
+    "seed": 19,
+    "limit": 1024,
+    "batch_size": 16,
+    "thinking": true,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "presence_penalty": 1.5,
+    "samples_per_question": 1
+  },
+  "split_ids": {
+    "discovery": [
+      "gsm8k_train/5547",
+      "gsm8k_train/354",
+      "gsm8k_train/6429",
+      "gsm8k_train/7335"
+    ],
+    "gsm8k_test": [
+      "gsm8k_test/88",
+      "gsm8k_test/1065",
+      "gsm8k_test/247",
+      "gsm8k_test/1047",
+      "gsm8k_test/408",
+      "gsm8k_test/805",
+      "gsm8k_test/711",
+      "gsm8k_test/1083"
+    ],
+    "math500": [
+      "test/algebra/1338.json",
+      "test/algebra/1837.json",
+      "test/intermediate_algebra/1806.json",
+      "test/prealgebra/805.json",
+      "test/prealgebra/1742.json",
+      "test/intermediate_algebra/1247.json",
+      "test/geometry/347.json",
+      "test/intermediate_algebra/431.json"
+    ]
+  },
+  "model": "models/Qwen3.5-0.8B",
+  "data_sha256": {
+    "gsm8k_train": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+    "gsm8k_test": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+    "math500": "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132"
+  }
+}

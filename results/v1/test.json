@@ -1,0 +1,2698 @@
+{
+  "base": [
+    {
+      "id": "test-0-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.5926666259765625,
+        0.4073334336280823
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    }
+  ],
+  "prompt": [
+    {
+      "id": "test-0-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "repair_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "repair_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "repair_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "repair_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "repair_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "repair_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "repair_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    }
+  ],
+  "self_lora": [
+    {
+      "id": "test-0-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7772998809814453,
+        0.22270014882087708
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.7549149990081787,
+        0.24508501589298248
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.8519527316093445,
+        0.14804719388484955
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.8519527316093445,
+        0.14804719388484955
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.7981867790222168,
+        0.2018132209777832
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.8519527316093445,
+        0.14804719388484955
+      ],
+      "repair_probs": [
+        0.7310585975646973,
+        0.2689414322376251
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        0.8519527316093445,
+        0.14804719388484955
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    }
+  ],
+  "fixed_lora": [
+    {
+      "id": "test-0-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.1940866901104528e-09
+      ],
+      "repair_probs": [
+        1.0,
+        8.071593393665921e-10
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.1940866901104528e-09
+      ],
+      "repair_probs": [
+        1.0,
+        9.736200734522527e-10
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        1.43072416136647e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.1940866901104528e-09
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        1.43072416136647e-08
+      ],
+      "repair_probs": [
+        1.0,
+        1.7087563586315468e-09
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.1940866901104528e-09
+      ],
+      "repair_probs": [
+        1.0,
+        6.286163256596922e-10
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.1940866901104528e-09
+      ],
+      "repair_probs": [
+        1.0,
+        5.211412412720051e-10
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-0-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        1.43072416136647e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.1940866901104528e-09
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-0-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        1.43072416136647e-08
+      ],
+      "repair_probs": [
+        1.0,
+        1.7087563586315468e-09
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        4.6448813684207835e-09
+      ],
+      "repair_probs": [
+        1.0,
+        3.8127506707397174e-10
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        4.6448813684207835e-09
+      ],
+      "repair_probs": [
+        1.0,
+        4.895668870297243e-10
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.8453348122070565e-08
+      ],
+      "repair_probs": [
+        1.0,
+        1.4166088302403068e-09
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.8453348122070565e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.486225891829008e-09
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        4.6448813684207835e-09
+      ],
+      "repair_probs": [
+        1.0,
+        1.1032560420787263e-09
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        4.6448813684207835e-09
+      ],
+      "repair_probs": [
+        1.0,
+        9.736200734522527e-10
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-1-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.8453348122070565e-08
+      ],
+      "repair_probs": [
+        1.0,
+        1.4166088302403068e-09
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "test-1-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        2.8453348122070565e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.486225891829008e-09
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        5.602796449011294e-09
+      ],
+      "repair_probs": [
+        1.0,
+        1.3307808188756098e-09
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 4.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        5.602796449011294e-09
+      ],
+      "repair_probs": [
+        1.0,
+        1.2501528701136522e-09
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        3.6534821390432626e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.06115369216775e-09
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        3.6534821390432626e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.998960857425459e-09
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        5.602796449011294e-09
+      ],
+      "repair_probs": [
+        1.0,
+        8.071593393665921e-10
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        5.602796449011294e-09
+      ],
+      "repair_probs": [
+        1.0,
+        6.691586174056852e-10
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    },
+    {
+      "id": "test-2-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        3.6534821390432626e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.06115369216775e-09
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 14,
+      "restored_states": 2,
+      "intact_states": 58,
+      "regressed_states": 16
+    },
+    {
+      "id": "test-2-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": 5.0,
+      "repair": 0,
+      "probe_probs": [
+        1.0,
+        3.6534821390432626e-08
+      ],
+      "repair_probs": [
+        1.0,
+        2.998960857425459e-09
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 14,
+      "restored_states": 14,
+      "intact_states": 58,
+      "regressed_states": 0
+    }
+  ]
+}

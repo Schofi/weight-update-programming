@@ -1,0 +1,16 @@
+{"id": "gsm8k_test/88", "source": "gsm8k_test", "gold": "8000", "predicted": "8000", "correct": true, "generated_tokens": 226, "hit_cap": false, "seed": 19}
+{"id": "gsm8k_test/1065", "source": "gsm8k_test", "gold": "95", "predicted": "95", "correct": true, "generated_tokens": 643, "hit_cap": false, "seed": 19}
+{"id": "gsm8k_test/247", "source": "gsm8k_test", "gold": "32", "predicted": "32", "correct": true, "generated_tokens": 441, "hit_cap": false, "seed": 19}
+{"id": "gsm8k_test/1047", "source": "gsm8k_test", "gold": "10", "predicted": "10", "correct": true, "generated_tokens": 550, "hit_cap": false, "seed": 19}
+{"id": "gsm8k_test/408", "source": "gsm8k_test", "gold": "20", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "gsm8k_test/805", "source": "gsm8k_test", "gold": "1170", "predicted": "1170", "correct": true, "generated_tokens": 314, "hit_cap": false, "seed": 19}
+{"id": "gsm8k_test/711", "source": "gsm8k_test", "gold": "6", "predicted": "4", "correct": false, "generated_tokens": 672, "hit_cap": false, "seed": 19}
+{"id": "gsm8k_test/1083", "source": "gsm8k_test", "gold": "2", "predicted": "2", "correct": true, "generated_tokens": 743, "hit_cap": false, "seed": 19}
+{"id": "test/algebra/1338.json", "source": "math500", "gold": "66", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "test/algebra/1837.json", "source": "math500", "gold": "5", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "test/intermediate_algebra/1806.json", "source": "math500", "gold": "\\frac{13}{4}", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "test/prealgebra/805.json", "source": "math500", "gold": "41", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "test/prealgebra/1742.json", "source": "math500", "gold": "\\dfrac{33}{100}", "predicted": "\\frac{33}{100}", "correct": true, "generated_tokens": 611, "hit_cap": false, "seed": 19}
+{"id": "test/intermediate_algebra/1247.json", "source": "math500", "gold": "-256", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "test/geometry/347.json", "source": "math500", "gold": "76^\\circ", "predicted": "76", "correct": true, "generated_tokens": 913, "hit_cap": false, "seed": 19}
+{"id": "test/intermediate_algebra/431.json", "source": "math500", "gold": "(a+5)(b+2)", "predicted": "(a+5)(b+2)", "correct": true, "generated_tokens": 340, "hit_cap": false, "seed": 19}

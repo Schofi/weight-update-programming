@@ -1,0 +1,41 @@
+{
+  "self_recipe": {
+    "module": "model.layers.15.mlp.down_proj",
+    "read": "top32",
+    "write": "subtract_error_direction",
+    "gain": 0.5
+  },
+  "fixed_recipe": {
+    "module": "model.layers.19.mlp.down_proj",
+    "read": "top64",
+    "write": "subtract_error_direction",
+    "gain": 1.0
+  },
+  "prompt_note": "The \"dog eats 3 of the apples off of the ground\" implies that the 3 eaten are removed from the 8 remaining, leaving 5 hanging.",
+  "writer_trace": [
+    {
+      "instruction": "Choose the MLP layer: A=15, B=19.",
+      "choice": "model.layers.15.mlp.down_proj",
+      "ab_probs": [
+        0.9859364032745361,
+        0.014063626527786255
+      ]
+    },
+    {
+      "instruction": "Choose how many most-aligned input columns to edit: A=32, B=64.",
+      "choice": "top32",
+      "ab_probs": [
+        0.9902915358543396,
+        0.00970847625285387
+      ]
+    },
+    {
+      "instruction": "Choose subtraction strength: A=0.5, B=1.0.",
+      "choice": 0.5,
+      "ab_probs": [
+        0.985042929649353,
+        0.014957086183130741
+      ]
+    }
+  ]
+}

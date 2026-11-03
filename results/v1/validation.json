@@ -1,0 +1,938 @@
+{
+  "candidates": {
+    "prompt": [
+      {
+        "memory": "Choose the probe that yields the highest informative score (True) and the lowest patched status (True) among the options listed.",
+        "rows": [
+          {
+            "id": "validation-0-0-0-0",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.4073334336280823,
+              0.5926666259765625
+            ],
+            "repair_probs": [
+              0.7772998809814453,
+              0.22270014882087708
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-0-1",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.4073334336280823,
+              0.5926666259765625
+            ],
+            "repair_probs": [
+              0.7310585975646973,
+              0.2689414322376251
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-0-1-0",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.3775406777858734,
+              0.622459352016449
+            ],
+            "repair_probs": [
+              0.7549149990081787,
+              0.24508501589298248
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-1-1",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.3775406777858734,
+              0.622459352016449
+            ],
+            "repair_probs": [
+              0.7310585975646973,
+              0.2689414322376251
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-0",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.4073334336280823,
+              0.5926666259765625
+            ],
+            "repair_probs": [
+              0.7772998809814453,
+              0.22270014882087708
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-1",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.4073334336280823,
+              0.5926666259765625
+            ],
+            "repair_probs": [
+              0.7310585975646973,
+              0.2689414322376251
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-1-1-0",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.3775406777858734,
+              0.622459352016449
+            ],
+            "repair_probs": [
+              0.7310585975646973,
+              0.2689414322376251
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-1-1",
+            "probe": 1,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.3775406777858734,
+              0.622459352016449
+            ],
+            "repair_probs": [
+              0.7549149990081787,
+              0.24508501589298248
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          }
+        ]
+      },
+      {
+        "memory": "A [1.0, 1.0, -1.0] is the most informative discovery found in the records.",
+        "rows": [
+          {
+            "id": "validation-0-0-0-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.7310585975646973,
+              0.2689414322376251
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-0-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.7057850360870361,
+              0.29421496391296387
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-0-1-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-1-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.7057850360870361,
+              0.29421496391296387
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-1-1-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-1-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          }
+        ]
+      }
+    ],
+    "self_lora": [
+      {
+        "recipe": {
+          "module": "model.layers.12.mlp.down_proj",
+          "read": "difference",
+          "write": "unembedding",
+          "gain": 0.25
+        },
+        "rows": [
+          {
+            "id": "validation-0-0-0-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.7057850360870361,
+              0.29421496391296387
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-0-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-0-1-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-1-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.7057850360870361,
+              0.29421496391296387
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-1-1-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-1-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          }
+        ]
+      },
+      {
+        "recipe": {
+          "module": "model.layers.12.mlp.down_proj",
+          "read": "difference",
+          "write": "unembedding",
+          "gain": 0.25
+        },
+        "rows": [
+          {
+            "id": "validation-0-0-0-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.7057850360870361,
+              0.29421496391296387
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-0-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": -2.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-0-1-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-0-1-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.7057850360870361,
+              0.29421496391296387
+            ],
+            "informative": true,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-0-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probe_score": 1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.562176525592804,
+              0.4378235340118408
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": true,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          },
+          {
+            "id": "validation-0-1-1-0",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6791787147521973,
+              0.3208213150501251
+            ],
+            "informative": false,
+            "repaired": false,
+            "preserved": false,
+            "joint": false,
+            "correct_column": false,
+            "broken_states": 38,
+            "restored_states": 14,
+            "intact_states": 34,
+            "regressed_states": 4
+          },
+          {
+            "id": "validation-0-1-1-1",
+            "probe": 0,
+            "probe_input": [
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "probe_score": -1.0,
+            "repair": 0,
+            "probe_probs": [
+              0.622459352016449,
+              0.3775406777858734
+            ],
+            "repair_probs": [
+              0.6513549089431763,
+              0.3486451804637909
+            ],
+            "informative": false,
+            "repaired": true,
+            "preserved": true,
+            "joint": true,
+            "correct_column": true,
+            "broken_states": 38,
+            "restored_states": 38,
+            "intact_states": 34,
+            "regressed_states": 0
+          }
+        ]
+      }
+    ]
+  },
+  "selected": {
+    "prompt": 0,
+    "self_lora": 0
+  }
+}

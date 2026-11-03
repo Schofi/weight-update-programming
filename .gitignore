@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+outputs/
+data/math/*.jsonl
+models/
+.env
+.env.*
+.pytest_cache/

@@ -1,0 +1,6 @@
+{
+  "module": "model.layers.12.mlp.down_proj",
+  "read": "difference",
+  "write": "unembedding",
+  "gain": 0.25
+}

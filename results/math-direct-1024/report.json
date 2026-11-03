@@ -1,0 +1,48 @@
+{
+  "arms": {
+    "base": {
+      "gsm8k_test": {
+        "n": 8,
+        "correct": 6,
+        "grading_errors": 0,
+        "missing_box": 1,
+        "hit_cap": 1,
+        "generated_tokens": 4613
+      },
+      "math500": {
+        "n": 8,
+        "correct": 3,
+        "grading_errors": 0,
+        "missing_box": 5,
+        "hit_cap": 5,
+        "generated_tokens": 6984
+      }
+    },
+    "self_lora": {
+      "gsm8k_test": {
+        "n": 8,
+        "correct": 5,
+        "grading_errors": 0,
+        "missing_box": 1,
+        "hit_cap": 1,
+        "generated_tokens": 3894
+      },
+      "math500": {
+        "n": 8,
+        "correct": 2,
+        "grading_errors": 0,
+        "missing_box": 6,
+        "hit_cap": 6,
+        "generated_tokens": 7046
+      }
+    }
+  },
+  "paired_vs_base": {
+    "gained": [],
+    "lost": [
+      "gsm8k_test/1047",
+      "test/geometry/347.json"
+    ]
+  },
+  "wall_seconds_excluding_load": 202.08
+}

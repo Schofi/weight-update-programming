@@ -1,0 +1,141 @@
+{
+  "model": "models/Qwen3.5-0.8B",
+  "device": "cuda",
+  "torch": "2.7.0+cu126",
+  "transformers": "5.3.0",
+  "discovery": {
+    "n": 4,
+    "correct": 0,
+    "missing_box": 4,
+    "hit_cap": 4,
+    "generated_tokens": 4096
+  },
+  "decoding": {
+    "seed": 19,
+    "limit": 1024,
+    "batch_size": 16,
+    "thinking": true,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "presence_penalty": 1.5,
+    "samples_per_question": 1
+  },
+  "arms": {
+    "base": {
+      "gsm8k_test": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      },
+      "math500": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      }
+    },
+    "prompt": {
+      "gsm8k_test": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      },
+      "math500": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      }
+    },
+    "self_lora": {
+      "gsm8k_test": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      },
+      "math500": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      }
+    },
+    "fixed_lora": {
+      "gsm8k_test": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      },
+      "math500": {
+        "n": 8,
+        "correct": 0,
+        "missing_box": 8,
+        "hit_cap": 8,
+        "generated_tokens": 8192
+      }
+    }
+  },
+  "paired_vs_base": {
+    "base": {
+      "gsm8k_test": {
+        "gained": [],
+        "lost": []
+      },
+      "math500": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "prompt": {
+      "gsm8k_test": {
+        "gained": [],
+        "lost": []
+      },
+      "math500": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "self_lora": {
+      "gsm8k_test": {
+        "gained": [],
+        "lost": []
+      },
+      "math500": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "fixed_lora": {
+      "gsm8k_test": {
+        "gained": [],
+        "lost": []
+      },
+      "math500": {
+        "gained": [],
+        "lost": []
+      }
+    }
+  },
+  "wall_seconds": 546.0,
+  "generation_seconds": {
+    "discovery": 103.09,
+    "base": 109.67,
+    "prompt": 110.24,
+    "self_lora": 106.59,
+    "fixed_lora": 100.62
+  },
+  "adapter_parameters": 4608
+}

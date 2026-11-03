@@ -1,0 +1,4 @@
+{"id": "gsm8k_train/5547", "source": "gsm8k_train", "gold": "10", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "gsm8k_train/354", "source": "gsm8k_train", "gold": "9", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "gsm8k_train/6429", "source": "gsm8k_train", "gold": "86", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}
+{"id": "gsm8k_train/7335", "source": "gsm8k_train", "gold": "11", "predicted": null, "correct": false, "generated_tokens": 1024, "hit_cap": true, "seed": 19}

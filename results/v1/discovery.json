@@ -1,0 +1,453 @@
+{
+  "records": [
+    {
+      "id": "discovery-0-0-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "discovery-0-0-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-0-0-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "discovery-0-0-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-0-1-0-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-0-1-0-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.531209409236908,
+        0.4687906503677368
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "discovery-0-1-1-0",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.7057850360870361,
+        0.29421496391296387
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-0-1-1-1",
+      "probe": 0,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "repair_probs": [
+        0.6791787147521973,
+        0.3208213150501251
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "discovery-1-0-0-0",
+      "probe": 1,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4378235340118408,
+        0.562176525592804
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "discovery-1-0-0-1",
+      "probe": 1,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4378235340118408,
+        0.562176525592804
+      ],
+      "repair_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-1-0-1-0",
+      "probe": 1,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4687906503677368,
+        0.531209409236908
+      ],
+      "repair_probs": [
+        0.6513549089431763,
+        0.3486451804637909
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "discovery-1-0-1-1",
+      "probe": 1,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": 1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4687906503677368,
+        0.531209409236908
+      ],
+      "repair_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-1-1-0-0",
+      "probe": 1,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4378235340118408,
+        0.562176525592804
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": false,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-1-1-0-1",
+      "probe": 1,
+      "probe_input": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "probe_score": -1.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4378235340118408,
+        0.562176525592804
+      ],
+      "repair_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "informative": false,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    },
+    {
+      "id": "discovery-1-1-1-0",
+      "probe": 1,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4687906503677368,
+        0.531209409236908
+      ],
+      "repair_probs": [
+        0.622459352016449,
+        0.3775406777858734
+      ],
+      "informative": true,
+      "repaired": false,
+      "preserved": false,
+      "joint": false,
+      "correct_column": false,
+      "broken_states": 38,
+      "restored_states": 14,
+      "intact_states": 34,
+      "regressed_states": 4
+    },
+    {
+      "id": "discovery-1-1-1-1",
+      "probe": 1,
+      "probe_input": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probe_score": -2.0,
+      "repair": 0,
+      "probe_probs": [
+        0.4687906503677368,
+        0.531209409236908
+      ],
+      "repair_probs": [
+        0.562176525592804,
+        0.4378235340118408
+      ],
+      "informative": true,
+      "repaired": true,
+      "preserved": true,
+      "joint": true,
+      "correct_column": true,
+      "broken_states": 38,
+      "restored_states": 38,
+      "intact_states": 34,
+      "regressed_states": 0
+    }
+  ],
+  "writer_input": "Order of coefficients: flag1, flag2, style. All discoveries started at [1,1,0].\ntimeout/retry: tried A [1.0, 0.0, 0.0]; score -2; informative=True; patched timeout; all checks passed=True.\ntimeout/retry: tried A [1.0, 0.0, 0.0]; score -2; informative=True; patched retry; all checks passed=False.\ntimeout/retry: tried A [1.0, 1.0, -1.0]; score -1; informative=False; patched timeout; all checks passed=True.\ntimeout/retry: tried A [1.0, 1.0, -1.0]; score -1; informative=False; patched retry; all checks passed=False.\ntimeout/retry: tried A [1.0, 0.0, 0.0]; score 1; informative=True; patched timeout; all checks passed=False.\ntimeout/retry: tried A [1.0, 0.0, 0.0]; score 1; informative=True; patched retry; all checks passed=True.\ntimeout/retry: tried A [1.0, 1.0, -1.0]; score -1; informative=False; patched timeout; all checks passed=False.\ntimeout/retry: tried A [1.0, 1.0, -1.0]; score -1; informative=False; patched retry; all checks passed=True.\nstale/repeat: tried B [1.0, 1.0, -1.0]; score -1; informative=False; patched stale; all checks passed=True.\nstale/repeat: tried B [1.0, 1.0, -1.0]; score -1; informative=False; patched repeat; all checks passed=False.\nstale/repeat: tried B [0.0, 1.0, 0.0]; score 1; informative=True; patched stale; all checks passed=True.\nstale/repeat: tried B [0.0, 1.0, 0.0]; score 1; informative=True; patched repeat; all checks passed=False.\nstale/repeat: tried B [1.0, 1.0, -1.0]; score -1; informative=False; patched stale; all checks passed=False.\nstale/repeat: tried B [1.0, 1.0, -1.0]; score -1; informative=False; patched repeat; all checks passed=True.\nstale/repeat: tried B [0.0, 1.0, 0.0]; score -2; informative=True; patched stale; all checks passed=False.\nstale/repeat: tried B [0.0, 1.0, 0.0]; score -2; informative=True; patched repeat; all checks passed=True."
+}

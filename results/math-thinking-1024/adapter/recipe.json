@@ -1,0 +1,6 @@
+{
+  "module": "model.layers.15.mlp.down_proj",
+  "read": "top32",
+  "write": "subtract_error_direction",
+  "gain": 0.5
+}

@@ -1,0 +1,192 @@
+{
+  "model": "models/Qwen3.5-0.8B",
+  "device": "cuda",
+  "seed": 19,
+  "candidate_budget_per_arm": 2,
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "dtype": "torch.bfloat16",
+  "torch": "2.7.0+cu126",
+  "transformers": "5.3.0",
+  "python": "3.11.0",
+  "recipe": {
+    "module": "model.layers.12.mlp.down_proj",
+    "read": "difference",
+    "write": "unembedding",
+    "gain": 0.25
+  },
+  "fixed_recipe": {
+    "module": "model.layers.23.mlp.down_proj",
+    "read": "difference",
+    "write": "unembedding",
+    "gain": 0.25
+  },
+  "distinct_test_probe_prompts": 6,
+  "selected": {
+    "prompt": 0,
+    "self_lora": 0
+  },
+  "adapter_parameters": 4608,
+  "metrics": {
+    "base": {
+      "n": 24,
+      "informative": 12,
+      "repaired": 12,
+      "preserved": 12,
+      "joint": 12,
+      "restored_states": 480,
+      "broken_states": 720,
+      "regressed_states": 96,
+      "intact_states": 1008
+    },
+    "prompt": {
+      "n": 24,
+      "informative": 12,
+      "repaired": 12,
+      "preserved": 12,
+      "joint": 12,
+      "restored_states": 480,
+      "broken_states": 720,
+      "regressed_states": 96,
+      "intact_states": 1008
+    },
+    "self_lora": {
+      "n": 24,
+      "informative": 12,
+      "repaired": 12,
+      "preserved": 12,
+      "joint": 12,
+      "restored_states": 480,
+      "broken_states": 720,
+      "regressed_states": 96,
+      "intact_states": 1008
+    },
+    "fixed_lora": {
+      "n": 24,
+      "informative": 12,
+      "repaired": 12,
+      "preserved": 12,
+      "joint": 12,
+      "restored_states": 480,
+      "broken_states": 720,
+      "regressed_states": 96,
+      "intact_states": 1008
+    }
+  },
+  "paired_vs_base": {
+    "prompt": {
+      "gained": 0,
+      "lost": 0,
+      "probe_flips": 0
+    },
+    "self_lora": {
+      "gained": 0,
+      "lost": 0,
+      "probe_flips": 0
+    },
+    "fixed_lora": {
+      "gained": 0,
+      "lost": 0,
+      "probe_flips": 0
+    }
+  },
+  "costs": {
+    "discovery": {
+      "forwards": 32,
+      "processed_input_tokens": 4288,
+      "output_tokens": 32,
+      "seconds": 14.996
+    },
+    "prompt_writer_0": {
+      "forwards": 28,
+      "processed_input_tokens": 708,
+      "output_tokens": 28,
+      "seconds": 3.329
+    },
+    "prompt_val_0": {
+      "forwards": 16,
+      "processed_input_tokens": 2656,
+      "output_tokens": 16,
+      "seconds": 7.976
+    },
+    "lora_writer_0": {
+      "forwards": 4,
+      "processed_input_tokens": 3025,
+      "output_tokens": 4,
+      "seconds": 2.335
+    },
+    "compile_0": {
+      "forwards": 0,
+      "processed_input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.01
+    },
+    "lora_val_0": {
+      "forwards": 16,
+      "processed_input_tokens": 2192,
+      "output_tokens": 16,
+      "seconds": 7.719
+    },
+    "prompt_writer_1": {
+      "forwards": 29,
+      "processed_input_tokens": 709,
+      "output_tokens": 29,
+      "seconds": 3.878
+    },
+    "prompt_val_1": {
+      "forwards": 16,
+      "processed_input_tokens": 2672,
+      "output_tokens": 16,
+      "seconds": 8.174
+    },
+    "lora_writer_1": {
+      "forwards": 4,
+      "processed_input_tokens": 3025,
+      "output_tokens": 4,
+      "seconds": 2.554
+    },
+    "compile_1": {
+      "forwards": 0,
+      "processed_input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.001
+    },
+    "lora_val_1": {
+      "forwards": 16,
+      "processed_input_tokens": 2192,
+      "output_tokens": 16,
+      "seconds": 7.54
+    },
+    "fixed_compile": {
+      "forwards": 0,
+      "processed_input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.001
+    },
+    "test_base": {
+      "forwards": 48,
+      "processed_input_tokens": 6568,
+      "output_tokens": 48,
+      "seconds": 23.1
+    },
+    "test_prompt": {
+      "forwards": 48,
+      "processed_input_tokens": 7960,
+      "output_tokens": 48,
+      "seconds": 23.487
+    },
+    "test_self_lora": {
+      "forwards": 48,
+      "processed_input_tokens": 6568,
+      "output_tokens": 48,
+      "seconds": 23.895
+    },
+    "test_fixed_lora": {
+      "forwards": 48,
+      "processed_input_tokens": 6568,
+      "output_tokens": 48,
+      "seconds": 27.083
+    }
+  },
+  "peak_cuda_allocated_mib": 1566.2,
+  "total_wall_seconds": 161.38
+}

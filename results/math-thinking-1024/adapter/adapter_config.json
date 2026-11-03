@@ -1,0 +1,13 @@
+{
+  "peft_type": "LORA",
+  "task_type": "CAUSAL_LM",
+  "base_model_name_or_path": "Qwen/Qwen3.5-0.8B",
+  "inference_mode": true,
+  "r": 1,
+  "lora_alpha": 1,
+  "lora_dropout": 0.0,
+  "target_modules": [
+    "model.layers.15.mlp.down_proj"
+  ],
+  "bias": "none"
+}
